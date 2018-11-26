@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>Z_DM_AGGR_FUNCTION</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>CDS Aggregate Functions</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>Z_DM_AGGR_FUNCTION</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>MAX</DOMVALUE_L>
+     <DDTEXT>Greatest value of operand</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>Z_DM_AGGR_FUNCTION</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>MIN</DOMVALUE_L>
+     <DDTEXT>Least value of operand</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>Z_DM_AGGR_FUNCTION</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>AVG</DOMVALUE_L>
+     <DDTEXT>Average value of operand</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>Z_DM_AGGR_FUNCTION</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SUM</DOMVALUE_L>
+     <DDTEXT>Sum of operand</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>Z_DM_AGGR_FUNCTION</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>COUNTWODIS</DOMVALUE_L>
+     <DDTEXT>Count of Operand without Distinct</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>Z_DM_AGGR_FUNCTION</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>COUNTWDIS</DOMVALUE_L>
+     <DDTEXT>Count of Operand with Distinct</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
